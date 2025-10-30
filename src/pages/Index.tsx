@@ -24,7 +24,7 @@ const Index = () => {
       id: 1,
       name: 'Эконом',
       description: 'Уютный номер с основными удобствами для комфортного проживания',
-      price: 4500,
+      price: 3000,
       image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/b5502499-b1f5-404a-b0e5-067a1a08fa0d.jpg',
       features: ['Двуспальная кровать', 'Wi-Fi', 'Кондиционер', 'TV', 'Душ']
     },
@@ -32,7 +32,7 @@ const Index = () => {
       id: 2,
       name: 'Стандарт',
       description: 'Комфортный номер со всеми необходимыми удобствами',
-      price: 6500,
+      price: 3500,
       image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/34105f76-c412-4bba-ab97-94f19f40104f.jpg',
       features: ['Кровать King Size', 'Wi-Fi', 'Кондиционер', 'Smart TV', 'Сейф', 'Мини-бар']
     },
@@ -40,7 +40,7 @@ const Index = () => {
       id: 3,
       name: 'Улучшенный стандарт',
       description: 'Просторный номер с дополнительными удобствами и зоной отдыха',
-      price: 8500,
+      price: 4000,
       image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/49a836cf-76b1-4905-9375-c3d31f30c941.jpg',
       features: ['Кровать King Size', 'Wi-Fi', 'Кондиционер', 'Smart TV', 'Зона отдыха', 'Мини-бар', 'Сейф', 'Халаты']
     },
@@ -48,7 +48,7 @@ const Index = () => {
       id: 4,
       name: 'Семейный',
       description: 'Комфортный номер для семейного отдыха с двумя кроватями',
-      price: 9500,
+      price: 5500,
       image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/e355ed44-2cd7-4e9f-9d0c-e8294439e41b.jpg',
       features: ['Две двуспальные кровати', 'Wi-Fi', 'Кондиционер', 'Smart TV', 'Мини-бар', 'Сейф', 'Детские принадлежности']
     },
@@ -56,7 +56,7 @@ const Index = () => {
       id: 5,
       name: 'Комфорт',
       description: 'Роскошный номер с панорамным видом и улучшенными удобствами',
-      price: 12500,
+      price: 4500,
       image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/e355ed44-2cd7-4e9f-9d0c-e8294439e41b.jpg',
       features: ['Кровать King Size', 'Wi-Fi', 'Кондиционер', 'Smart TV', 'Гостиная', 'Мини-бар', 'Сейф', 'Халаты', 'Панорамные окна', 'Люкс ванная']
     }
