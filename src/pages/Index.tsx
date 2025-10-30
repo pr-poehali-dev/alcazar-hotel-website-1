@@ -19,32 +19,14 @@ const Index = () => {
   const [selectedRoom, setSelectedRoom] = useState<number | null>(null);
   const { toast } = useToast();
 
-  const rooms = [
-    {
-      id: 1,
-      name: 'Стандартный номер',
-      description: 'Уютный номер с видом на город, оснащенный всем необходимым для комфортного пребывания',
-      price: 5000,
-      image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/fb2f235d-7789-4f03-8801-eb885b675371.jpg',
-      features: ['Двуспальная кровать', 'Wi-Fi', 'Кондиционер', 'ТВ', 'Мини-бар']
-    },
-    {
-      id: 2,
-      name: 'Люкс',
-      description: 'Просторный номер премиум-класса с отдельной зоной отдыха и видом на парк',
-      price: 8500,
-      image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/0246b2e2-bf3a-443f-92dd-1d3d8ecf9150.jpg',
-      features: ['Кровать King Size', 'Wi-Fi', 'Кондиционер', 'ТВ', 'Мини-бар', 'Зона отдыха', 'Балкон']
-    },
-    {
-      id: 3,
-      name: 'Президентский люкс',
-      description: 'Роскошные апартаменты с панорамными окнами и эксклюзивным сервисом',
-      price: 15000,
-      image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/b3d9242e-84d3-469d-a754-2fbda81c5b70.jpg',
-      features: ['Кровать King Size', 'Wi-Fi', 'Кондиционер', 'ТВ', 'Мини-бар', 'Гостиная', 'Панорамные окна', 'Люстра', 'Два санузла']
-    }
-  ];
+  const rooms: Array<{
+    id: number;
+    name: string;
+    description: string;
+    price: number;
+    image: string;
+    features: string[];
+  }> = [];
 
   const services = [
     { icon: 'Utensils', title: 'Ресторан', description: 'Изысканная кухня от шеф-повара' },
