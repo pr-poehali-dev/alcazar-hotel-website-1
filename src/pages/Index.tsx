@@ -22,35 +22,43 @@ const Index = () => {
   const rooms = [
     {
       id: 1,
-      name: 'Классик',
-      description: 'Элегантный номер с королевской кроватью и панорамным видом',
-      price: 6500,
+      name: 'Эконом',
+      description: 'Уютный номер с основными удобствами для комфортного проживания',
+      price: 4500,
       image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/b5502499-b1f5-404a-b0e5-067a1a08fa0d.jpg',
-      features: ['Кровать King Size', 'Wi-Fi', 'Кондиционер', 'Smart TV', 'Сейф', 'Мини-бар']
+      features: ['Двуспальная кровать', 'Wi-Fi', 'Кондиционер', 'TV', 'Душ']
     },
     {
       id: 2,
-      name: 'Делюкс',
-      description: 'Просторный номер с зоной отдыха и видом на город',
-      price: 9500,
+      name: 'Стандарт',
+      description: 'Комфортный номер со всеми необходимыми удобствами',
+      price: 6500,
       image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/34105f76-c412-4bba-ab97-94f19f40104f.jpg',
-      features: ['Кровать King Size', 'Wi-Fi', 'Кондиционер', 'Smart TV', 'Зона отдыха', 'Мини-бар', 'Сейф', 'Халаты']
+      features: ['Кровать King Size', 'Wi-Fi', 'Кондиционер', 'Smart TV', 'Сейф', 'Мини-бар']
     },
     {
       id: 3,
-      name: 'Семейный',
-      description: 'Комфортный номер для семейного отдыха с двумя кроватями',
-      price: 8000,
+      name: 'Улучшенный стандарт',
+      description: 'Просторный номер с дополнительными удобствами и зоной отдыха',
+      price: 8500,
       image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/49a836cf-76b1-4905-9375-c3d31f30c941.jpg',
-      features: ['Две двуспальные кровати', 'Wi-Fi', 'Кондиционер', 'Smart TV', 'Мини-бар', 'Детские принадлежности']
+      features: ['Кровать King Size', 'Wi-Fi', 'Кондиционер', 'Smart TV', 'Зона отдыха', 'Мини-бар', 'Сейф', 'Халаты']
     },
     {
       id: 4,
-      name: 'Джуниор Сюит',
-      description: 'Роскошный номер с отдельной гостиной зоной и люстрой',
-      price: 13500,
+      name: 'Семейный',
+      description: 'Комфортный номер для семейного отдыха с двумя кроватями',
+      price: 9500,
       image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/e355ed44-2cd7-4e9f-9d0c-e8294439e41b.jpg',
-      features: ['Кровать King Size', 'Wi-Fi', 'Кондиционер', 'Smart TV', 'Гостиная', 'Люстра', 'Мини-бар', 'Сейф', 'Халаты', 'Панорамные окна']
+      features: ['Две двуспальные кровати', 'Wi-Fi', 'Кондиционер', 'Smart TV', 'Мини-бар', 'Сейф', 'Детские принадлежности']
+    },
+    {
+      id: 5,
+      name: 'Комфорт',
+      description: 'Роскошный номер с панорамным видом и улучшенными удобствами',
+      price: 12500,
+      image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/e355ed44-2cd7-4e9f-9d0c-e8294439e41b.jpg',
+      features: ['Кровать King Size', 'Wi-Fi', 'Кондиционер', 'Smart TV', 'Гостиная', 'Мини-бар', 'Сейф', 'Халаты', 'Панорамные окна', 'Люкс ванная']
     }
   ];
 
