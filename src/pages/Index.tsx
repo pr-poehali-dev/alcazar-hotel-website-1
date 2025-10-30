@@ -25,7 +25,7 @@ const Index = () => {
       name: 'Стандартный номер',
       description: 'Уютный номер с видом на город, оснащенный всем необходимым для комфортного пребывания',
       price: 5000,
-      image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/14d3e0cd-af7d-469f-8ecf-9049a01c5b30.jpg',
+      image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/fb2f235d-7789-4f03-8801-eb885b675371.jpg',
       features: ['Двуспальная кровать', 'Wi-Fi', 'Кондиционер', 'ТВ', 'Мини-бар']
     },
     {
@@ -33,7 +33,7 @@ const Index = () => {
       name: 'Люкс',
       description: 'Просторный номер премиум-класса с отдельной зоной отдыха и видом на парк',
       price: 8500,
-      image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/2599b149-7d30-4aa2-9997-986fec7bedb7.jpg',
+      image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/0246b2e2-bf3a-443f-92dd-1d3d8ecf9150.jpg',
       features: ['Кровать King Size', 'Wi-Fi', 'Кондиционер', 'ТВ', 'Мини-бар', 'Зона отдыха', 'Балкон']
     },
     {
@@ -41,7 +41,7 @@ const Index = () => {
       name: 'Президентский люкс',
       description: 'Роскошные апартаменты с панорамными окнами и эксклюзивным сервисом',
       price: 15000,
-      image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/4fffd1d7-e8fc-417b-9821-c99e8a5a6971.jpg',
+      image: 'https://cdn.poehali.dev/projects/dfe031ef-6532-4bcc-9277-04b24aa03a8c/files/b3d9242e-84d3-469d-a754-2fbda81c5b70.jpg',
       features: ['Кровать King Size', 'Wi-Fi', 'Кондиционер', 'ТВ', 'Мини-бар', 'Гостиная', 'Панорамные окна', 'Люстра', 'Два санузла']
     }
   ];
